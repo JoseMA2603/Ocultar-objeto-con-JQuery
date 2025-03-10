@@ -1,0 +1,50 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #parrafo {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 20px;
+            transition: opacity 0.5s ease; /* Animación suave al ocultar */
+            font-family: 'Open Sans', sans-serif;
+        }
+
+        #ocultar-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Transición suave para el hover */
+        }
+
+        #ocultar-btn:hover {
+            background-color: #0056b3;
+        }
+
+        #mostrar-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease; /* Transición suave para el hover */
+            display: none; /* Oculto inicialmente */
+        }
+
+        #mostrar-btn:hover {
+            background-color: #0056b3;
+        }
+   
